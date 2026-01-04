@@ -1,0 +1,11 @@
+@media (min-width: 1200px) and (max-width: 1439px){
+
+.option button{
+    font-size: 1.2rem;
+}
+
+    .description-container-performance p {
+    font-size: 1.5rem;
+}
+
+}

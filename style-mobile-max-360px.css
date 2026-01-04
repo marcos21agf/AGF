@@ -1,0 +1,70 @@
+@media (max-width: 360px){
+  html{
+    font-size: 8px;
+  }
+
+  .description-container p {
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    
+}
+
+.cover-container h1{
+    font-size: 3rem;
+    margin: 0 0 0 3rem;
+}
+
+.select button{
+    font-size: 1rem;
+    margin: 0;
+}
+
+.option{
+    grid-template-columns: repeat(7, 1fr);
+    background-color: #222222;
+    justify-items: center;
+    align-items: center;
+}
+
+.description-container-performance{
+    grid-template-columns: repeat(1,1fr);
+    font-size: 2rem;
+    margin: 0;   
+}
+
+.form-div{   
+    margin-inline: 1rem; 
+    margin: 0;    
+}
+
+.form input {
+    margin-bottom: 3rem;
+    width: 25rem;
+    height: 3rem;
+    border-radius: .3rem;
+
+    
+}
+
+.form button{
+    height:5rem;
+}
+
+.end-document li{
+    display: grid;
+    grid-column: auto;
+    margin-top: 3rem;
+    font-size: 2rem;
+    
+}
+
+footer img {
+    width: 3rem;
+    font-size: 1rem;
+    
+    
+
+}
+
+}

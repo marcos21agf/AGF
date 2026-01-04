@@ -1,0 +1,56 @@
+@media (min-width: 420px) and (max-width: 576px){
+
+
+    html{
+        font-size: 8px;
+    
+}
+
+.cover-container h1{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: 3rem;
+
+}
+
+.option button{
+    font-size: 1.5rem;
+}
+
+      .description-container p {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: 2rem;
+    
+}
+
+.description-container-performance{
+    grid-template-columns: repeat(1,1fr);
+    padding-bottom: 10rem;
+    font-size: 2rem;
+
+    
+}
+
+.form-div{   
+    margin-inline: 5rem;     
+}
+
+.form input {
+    margin-bottom: 4rem;
+    width: 30rem;
+    height: 3rem;
+    border-radius: .3rem;
+    border-style: none;
+    text-align: center;
+    
+}
+
+.form button{
+    height:6rem;
+    font-weight: 500;
+}
+
+}
+
+

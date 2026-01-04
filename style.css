@@ -1,0 +1,310 @@
+html{
+    background-color: #1E1E1E;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    
+}
+
+.title-container{
+    text-align: center;
+    background-color: #222222 ;
+    padding: 1rem 0 1rem 0;
+    position: sticky;
+    top: 0;
+    background: #222222;
+    z-index: 1000;
+    opacity: .96;
+    
+    
+}
+
+.title-container  p{
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: .4rem;
+    cursor: none;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+   
+    
+}
+
+h1{
+    margin: 0;
+}
+
+h2{
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+    color: #7354ff;
+}
+
+.cover-container{
+    background-image: url(./image/backgroundcover.svg);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 31.5rem;
+  
+}
+
+
+
+
+.cover-container h1{
+    margin-left: 10rem;
+    margin-right: 18rem;
+    font-size: 3.5rem;
+    font-weight: 400;
+
+}
+
+.option{
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: #222222;
+    justify-items: center;
+    align-items: center;
+    
+    
+    
+}
+
+.select button{
+    background-color:#222222;
+    color: #ffffff;
+    border: 0;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    margin: 1rem;
+    
+   
+    
+    
+
+}
+
+.option-1 {
+    grid-area:1 / 2;
+}
+.option-2{
+    grid-area:1 / 3;
+}
+.option-3{
+    grid-area:1 / 4;
+}
+.option-4{
+    grid-area:1 / 5;
+}
+.option-5{
+    grid-area:1 / 6;
+
+}
+
+.description-container{
+margin: 0;
+
+align-items: center;
+text-align: center;
+padding-top: 25rem;
+padding-bottom: 10rem;
+
+
+}
+
+.description-container p {
+    margin: 4rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: 1.5rem;
+    
+}
+
+.description-container-performance{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-bottom: 10rem;
+
+    
+}
+
+.description-container-performance h3 {
+    color: rgb(0, 188, 245);
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.description-container-performance img{
+    width: 5vw;
+    border: 1rem;
+    
+}
+
+.description-container-performance div{
+    margin: 5rem;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radios: 1rem;
+    border-width: 1px;
+    padding: 2rem;
+    border-color: hsl(29, 100%, 50%);
+    border-radius: 1rem;
+}
+
+.companies-session{
+    text-align: center;
+    padding-top: 7rem;
+    padding-bottom: 10rem;
+}
+
+.companies-session img {
+    border-radius: 1.5rem;
+    width: 10rem;
+    border-style: none;
+
+}
+
+.form-div-1{
+    padding-bottom: 10rem;
+    
+}
+
+.form{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.form-div{
+    border-style:solid;
+    margin-inline: 25rem;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+    border-radius: 4rem;
+    background-color: #191919;
+    border-width: 0.1rem;
+    border-color: #000000;  
+}
+
+
+
+.form-div h3{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0;
+    padding-bottom: 7rem;
+    font-weight: 300;
+    
+    
+}
+
+.form input {
+    margin-bottom: 2rem;
+    width: 15rem;
+    height: 1.5rem;
+    border-radius: .5rem;
+    border-style: none;
+    text-align: center;
+    
+}
+
+
+
+.form button{
+margin-top: 2rem;
+width: 11rem;
+height: 2rem;
+border: 0;
+border-radius: .5rem;
+color: #ffffff;
+background-color: #65bd00;
+cursor: pointer;
+font-family: "Poppins", sans-serif;
+
+}
+
+.end-document{
+padding-top: 5rem;
+
+
+}
+.end-document ul{
+padding: 0;
+margin: 0;
+list-style: none;
+text-align: center;
+
+}
+
+.end-document li{
+    display: inline-block;
+    margin: 0 2rem 0 2rem;
+    
+}
+
+footer{
+    background-color: #504f4f;
+    color: #ffffff;
+    
+    
+    
+
+}
+
+footer img {
+    width: 2rem; 
+
+}
+
+.social-container{
+display: flex;
+align-items: center;
+
+justify-content: center;
+gap: 3rem;
+padding-top: 5rem;
+
+}
+
+
+
+footer p {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+button{
+    transition: 1s ease;
+}
+
+button:hover{
+    transform: translateY(-7px);  
+}
+
+footer button{
+    margin: 0px;
+    padding: 0px;
+    color: inherit;
+}
+
